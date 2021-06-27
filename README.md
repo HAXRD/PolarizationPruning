@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Note
 
 ### Goal
-Compare post-pruning model performance between "Pytorch pruning API" and "Polarization Regularizer" introduced in [**[Paper]**](https://github.com/polarizationpruning/PolarizationPruning/blob/master/NIPS2020_PolarizationPruning.pdf) in both **workstation** and **embedding systems** with limited resource.
+Compare post-pruning model performance between 2 commonly used structured pruning methods (Naive L1 Regularizer, L1 Sparsity Regularizer) and "Polarization Regularizer" introduced in [**[Paper]**](https://github.com/polarizationpruning/PolarizationPruning/blob/master/NIPS2020_PolarizationPruning.pdf) in both **workstation** and **embedding systems** with limited resource.
 
 ### Architecture & Dataset
 Due to the limitation of computational resource, we only perform experiments with CIFAR10/100 on ResNet56.
