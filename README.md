@@ -28,4 +28,3 @@ Compare post-pruning model performance between 2 commonly used structured prunin
 ### Architecture & Dataset
 Due to the limitation of computational resource, we only perform experiments with CIFAR10/100 on ResNet56.
 
-> See README in `./cifar` for more details.
